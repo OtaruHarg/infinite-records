@@ -1,0 +1,47 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden auto;
+}
+
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(backgrownd.PNG);
+    background-size: cover;
+    z-index: 0.5;
+}
+
+#wrp{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    /*
+    align-items: center;
+    text-align: center;
+    */
+}
+
+
+
+@media screen and (orientation: portrait){
+
+    #wrp{
+        width: 100vh;
+        height: 100vw;
+        margin: -100vw 0 100vh;
+        transform: rotate(90deg);
+        transform-origin: left bottom;
+    }
+}
+
+
+.alerts{
+    position: absolute;
+    width: 50vh;
+    height: 50vw;
+    margin: 25vw 25vh 25vw 25vh;
+}
+
