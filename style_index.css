@@ -45,3 +45,11 @@ body{
     margin: 25vw 25vh 25vw 25vh;
 }
 
+.alertbord{
+    margin: 0 0;
+    opacity: 0;
+    background-color: white;
+    border-color: black;
+    border-width: 1vh;
+    border-style: solid;
+}
